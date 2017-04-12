@@ -23,5 +23,4 @@ def setup_config():
 
 
 def setup():
-	print ('Setting Up !!')
 	setup_config()
