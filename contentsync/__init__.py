@@ -16,6 +16,8 @@ def setup_config():
 	config.set("setup", "path", str(local_working_dir))
 	config.set("setup", "setup_type", "local")
 	config.set("setup", "allow_delete", "true")
+	config.set("setup", "from", "sourcedir")
+	config.set("setup", "to", "targetdir")
 	with open('contentsync/setup.cfg', 'w') as configfile:
 		config.write(configfile)
 

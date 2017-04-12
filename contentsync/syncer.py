@@ -1,3 +1,7 @@
+import configparser
+config = configparser.ConfigParser()
+config.read('setup.cfg')
+
 
 class Sync(option):
 	def __init__(self, dir1, dir2, action, **options):
@@ -22,3 +26,8 @@ class Sync(option):
 		self._changed = []
 		self._added = []
 		self._deleted = []
+
+		def get_option_type(name):
+			return config.get(name, 'action')
+		
+		
