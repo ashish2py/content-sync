@@ -23,7 +23,6 @@ class Syncer(object):
 		self.log = logging.getLogger('dirsync')
 		self.log.setLevel(logging.INFO)
 
-
 		self._dir1 = dir1
 		self._dir2 = dir2
 		
@@ -151,3 +150,5 @@ class Syncer(object):
 		right.difference_update(common)
 		print (left, right, common)
 		return DCMP(left, right, common)
+
+
