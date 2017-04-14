@@ -36,7 +36,7 @@ Sync contents of local and server.
 
 ## References
 
-https://www.digitalocean.com/community/tutorials/how-to-use-rsync-to-sync-local-and-remote-directories-on-a-vps
-https://pypi.python.org/pypi/rsync.py
+- https://www.digitalocean.com/community/tutorials/how-to-use-rsync-to-sync-local-and-remote-directories-on-a-vps
+- https://pypi.python.org/pypi/rsync.py
 
 
