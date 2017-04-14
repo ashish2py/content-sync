@@ -1,15 +1,15 @@
 ## Content Sync Goals
 Content/Files present on any local box should also be present on server and files present on server should be available on box if that box have permission to access that file.
 
-###Goals
+### Goals
 Sync contents of local and server.
 
-###Challenges
+### Challenges
 - Network fails while transferring files.
 - Sync only accessible file/resources from nodes/lesson material.
 - Support Azure and S3 
 
-###Specifications
+### Specifications
 - RSYNC
    - To download/upload data between local and remote server.
 
@@ -34,7 +34,7 @@ Sync contents of local and server.
 - Rsync for all those files.
 	- After preparing accessible resource/content on remote system send it to local classcloud-box.
 
-##References
+## References
 
 https://www.digitalocean.com/community/tutorials/how-to-use-rsync-to-sync-local-and-remote-directories-on-a-vps
 https://pypi.python.org/pypi/rsync.py
